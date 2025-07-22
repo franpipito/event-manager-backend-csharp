@@ -1,25 +1,26 @@
 ﻿using System;
-using System.Collections;
-namespace ALGORITMOS_TP_FINAL
+
+namespace EventManager
 {
 	/// <summary>
-	/// Description of Salon.
+	/// Description of Servicio.
 	/// </summary>
-	public class Salon
+	public class Servicio
 	{
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	 	
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		 
 		//Atributos
 		private string nombre;
-		private ArrayList listaEventos = new ArrayList();
-		private ArrayList listaEmpleados = new ArrayList();
-		private ArrayList listaEncargados = new ArrayList();
-		private ArrayList listaClientes = new ArrayList();	
-		private ArrayList listaServicios = new ArrayList();
+		private string descripcion;
+		private int cantidad;
+		private double costoUnitario;
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
 		//Constructor
-		public Salon(string nombre)
+		public Servicio(string nombre, string descripcion, int cantidad, double costoUnitario)
 		{
 			this.nombre = nombre;
+			this.descripcion = descripcion;
+			this.cantidad = cantidad;
+			this.costoUnitario = costoUnitario;
 		}
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
 		//Propiedades
@@ -29,29 +30,22 @@ namespace ALGORITMOS_TP_FINAL
 			set{nombre = value;}
 		}
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
-		public ArrayList ListaEventos
+		public string Descripcion
 		{
-			get{return listaEventos;}
+			get{return descripcion;}
+			set{descripcion = value;}
 		}
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
-		public ArrayList ListaEmpleados
+		public int Cantidad
 		{
-			get{return listaEmpleados;}
+			get{return cantidad;}
+			set{cantidad = value;}
 		}
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
-		public ArrayList ListaEncargados
+		public double CostoUnitario
 		{
-			get{return listaEncargados;}
-		}
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
-		public ArrayList ListaClientes
-		{
-			get{return listaClientes;}
-		}
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
-		public ArrayList ListaServicios
-		{
-			get{return listaServicios;}
+			get{return costoUnitario;}
+			set{costoUnitario = value;}
 		}
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------		
 	}

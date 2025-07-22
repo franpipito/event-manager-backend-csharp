@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ALGORITMOS_TP_FINAL
+namespace EventManager
 {
 	/// <summary>
 	/// Description of Encargado.

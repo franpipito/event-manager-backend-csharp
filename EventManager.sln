@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 5.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALGORITMOS_TP_FINAL", "ALGORITMOS_TP_FINAL\ALGORITMOS_TP_FINAL.csproj", "{2E702FB3-5F8B-40F4-8024-C0B0840291E8}"
+Project("{GUID}") = "EventManager", "EventManager\EventManager.csproj", "{GUID}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

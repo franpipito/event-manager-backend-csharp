@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections;
-namespace ALGORITMOS_TP_FINAL
+namespace EventManager
 {
 	class Program
 	{
