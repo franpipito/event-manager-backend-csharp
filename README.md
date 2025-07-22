@@ -30,14 +30,8 @@ Aplicación backend de escritorio desarrollada en **C# y .NET**, orientada a la 
    ```bash
    git clone https://github.com/franpipito/event-manager-backend-csharp.git
    ```
-2. Abrí el archivo `ALGORITMOS_TP_FINAL.sln` en Visual Studio.
+2. Abrí el archivo `EventManager.sln` en Visual Studio.
 3. Ejecutá el proyecto desde el entorno.
-
----
-
-## 📸 Capturas de pantalla
-
-_(Agregá screenshots para mostrar la interfaz si podés)_
 
 ---
 
