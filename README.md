@@ -1,5 +1,5 @@
 
-# Event Manager Desktop App 🎉
+# Event Manager Desktop App 
 
 Aplicación backend de escritorio desarrollada en **C# y .NET**, orientada a la gestión de eventos para salones de fiestas. Este proyecto forma parte de mi camino como Backend Developer, donde pongo en práctica fundamentos de programación orientada a objetos, persistencia de datos y arquitectura por capas.
 
